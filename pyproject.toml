@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "antinat"
+version = "0.1.0"
+description = ""
+authors = ["Vishal Gokhale <you@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.1.0"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.0"
+openai = "^1.54.4"
+tiktoken = "^0.8.0"
+python-dotenv = "^1.0.1"
+pypdf = "^5.1.0"
+numpy = "^2.1.3"
+faiss-cpu = "^1.9.0"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
